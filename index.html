@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./app.js" defer></script>
+</head>
+<body>
+    <div class="block-left" id="block-left">
+        <div class="logo-container" id="logo-container">
+            <img src="./images/odin-lined.png" id="login-image" alt="login-image">
+            <h1 id="lorem-text">Lorem</h1>
+        </div>
+    </div>
+    <div class="block-right" id="block-right">
+        <div class="text-container">
+            <p class="text" id="text-main">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <p class="text" id="text-secondary">Sed ut perspiciatis unde omnis</p>
+        </div>
+        <div class="form-container">
+            <div class="sign-up">
+                <h2>Join Lorem</h2>
+            </div>
+            <form id="form-self" action="results.html" method="GET">
+
+                <div class="form-inner-container">
+
+                    <div class="label-container" >
+                        <label for="name-field">FIRST NAME</label>
+                        <input type="text" name="username" id="name-field" placeholder="Adam" required>
+                    </div>
+                    <div class="label-container">
+                        <label for="email-field">EMAIL</label>
+                        <input type="email" name="email" id="email-field" placeholder="example@example.com">
+                    </div>
+                    <div class="label-container">
+                        <label for="password-field">PASSWORD</label>
+                        <input type="password" name="password" id="password-field" placeholder="password">
+                    </div>
+            
+                </div>
+
+                <div class="form-inner-container" id="inner-2">
+                    <div class="label-container" >
+                        <label for="name-field">LAST NAME</label>
+                        <input type="text" name="username" id="name-field" placeholder="Smith">
+                    </div>
+                    <div class="label-container" >
+                        <label for="email-field">EMAIL</label>
+                        <input type="tel" name="tel" id="tel-field" placeholder="+7(999)999-99-99">
+                    </div>
+                    <div class="label-container" >
+                        <label for="password-field">CONFIRM PASSWORD</label>
+                        <input type="password" name="password" id="password-field" placeholder="password">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="button-container">
+            <button class="button" id="submit-button">Create Account</button>
+            <p>Already have an account? <span id="login-link">Log in</span> </p> 
+        </div>
+    </div>
+</body>
+</html>
